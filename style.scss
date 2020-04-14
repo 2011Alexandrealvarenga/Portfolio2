@@ -5,11 +5,14 @@ body, html {
   padding: 0;
 
   }
-h2 {
-  text-align: center; }
+h2,h5 {
+  text-align: center; 
+  font-family: 'Roboto Mono', monospace;
+}
+h2{
+  font-size: 32px;
+}
 
-h5 {
-  text-align: center; }
 
                             /*VARIAVEIS*/
 /*
@@ -40,6 +43,8 @@ $backg_trab: #D4AF37;
 $backg_cursos: #772704;
 $h2_title_curso: #D4AF37;
 $backg_content_curso: #D4AF37;
+                              /*EXPERIENCIA*/
+$backg_expe:#D4AF37;
                               /*RESPONSIVE*/  
 $toggler_icon:#772704;
 $btn_toggler_icon: #772704;
@@ -51,7 +56,12 @@ $color_navbar_brand_hover: #D4AF37;
   position: fixed!important;
   width: 100%;
   bottom: 0;
-  z-index: 20; }
+  z-index: 20; 
+position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 #header {
   position: relative;
@@ -84,7 +94,7 @@ $color_navbar_brand_hover: #D4AF37;
 }
                         /*PESSOAL*/
 .pessoal {
-   background: url(img/esc.jpg) no-repeat;
+   background: url(esc.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 500px;
@@ -117,8 +127,8 @@ input,
   position: absolute;
   width: 50px;
   height: 50px;
-  bottom: 20px;
-  right: 20px;
+  bottom: 12px;
+  right: 14px;
   outline: none;
   z-index: 10;
 }
@@ -149,7 +159,7 @@ input:checked ~ .toggle{
 }
 
 .details{
-   padding: 20px;
+   padding: 10px;
    box-sizing: border-box;
    z-index: 11;
    pointer-events: none;
@@ -162,8 +172,8 @@ input:checked ~ .toggle{
     color: $h2_pessoal;
    }
    ul {
-    padding-left: 0;
-    padding-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
 
         li{
       list-style: none;
@@ -379,6 +389,23 @@ input:checked ~ .details{
 
 
                             /*EXPERIENCIA PROFISSIONAL*/
+.experiencia{
+  background: $backg_expe;
+
+}
+.content-box{
+  height: auto;
+    ul {
+    list-style-type: none;
+    li .title{
+      font-weight: bold;   
+    }
+  }
+
+}
+
+
+/*                            
 .content-section {
   width: 50%;
   margin: 0 auto;
@@ -434,10 +461,12 @@ video::-webkit-media-controls {
   }
 
 }
+*/
                                 /*TRABALHOS*/
 .trabalho {
   background: $backg_trab;
-  height: 150px; 
+  height: 150px;
+  max-height: auto; 
   h2{
     padding-top: 20px;
     color: $h2_exp;
@@ -498,7 +527,7 @@ video::-webkit-media-controls {
   }
 }
 .navbar-collapse ul li{
-  padding-left: 10px;
+  
       padding-top:0;
     padding-bottom: 0;
     a{
@@ -512,6 +541,7 @@ video::-webkit-media-controls {
  .navbar-brand{
     display: none;
   }
+
 
 }
 
@@ -538,6 +568,10 @@ video::-webkit-media-controls {
 
 }
 
+  .navbar-collapse ul li{
+padding-left: 10px;
+  }
+
 @media screen and (max-width: 768px){
   .conteudo-curso .conteudo:hover {
      transform: scale(1);
@@ -545,9 +579,7 @@ video::-webkit-media-controls {
   .content_formacao{
     padding: 20px;
   }
-  #experience, .experiencia, .video-section>#video-elem {
-    height: 270px!important;
-  }
+ 
 
     .video-overlay {
     position: absolute;
