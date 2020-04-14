@@ -4,11 +4,12 @@ body, html {
   margin: 0;
   padding: 0; }
 
-h2 {
-  text-align: center; }
+h2, h5 {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace; }
 
-h5 {
-  text-align: center; }
+h2 {
+  font-size: 32px; }
 
 /*VARIAVEIS*/
 /*
@@ -17,13 +18,18 @@ h5 {
 */
 /*FUNDO DO NAVBAR*/
 /*772704*/
+/*EXPERIENCIA*/
 /*RESPONSIVE*/
 /*MENU*/
 .fixed {
   position: fixed !important;
   width: 100%;
   bottom: 0;
-  z-index: 20; }
+  z-index: 20;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 #header {
   position: relative;
@@ -50,7 +56,7 @@ h5 {
 
 /*PESSOAL*/
 .pessoal {
-  background: url(esc.jpg) no-repeat;
+  background: url(img/esc.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 500px;
@@ -80,8 +86,8 @@ input,
   position: absolute;
   width: 50px;
   height: 50px;
-  bottom: 20px;
-  right: 20px;
+  bottom: 12px;
+  right: 14px;
   outline: none;
   z-index: 10; }
 
@@ -110,7 +116,7 @@ input:checked ~ .toggle {
   height: 100%; }
 
 .details {
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
   z-index: 11;
   pointer-events: none;
@@ -121,8 +127,8 @@ input:checked ~ .toggle {
   .details span {
     color: #260101; }
   .details ul {
-    padding-left: 0;
-    padding-top: 20px; }
+    padding-left: 10px;
+    padding-top: 10px; }
     .details ul li {
       list-style: none; }
 
@@ -305,25 +311,38 @@ input:checked ~ .details{
 }
 */
 /*EXPERIENCIA PROFISSIONAL*/
+.experiencia {
+  background: #D4AF37; }
+
+.content-box ul {
+  list-style-type: none; }
+  .content-box ul li .title {
+    font-weight: bold; }
+
+/*                            
 .content-section {
   width: 50%;
   margin: 0 auto;
-  padding: 15% 0; }
-  .content-section h2 {
-    text-transform: uppercase;
-    margin-bottom: 15px; }
-  .content-section p {
-    font-size: 1.2em;
-    color: #333; }
+  padding: 15% 0; 
+    h2 {
+      text-transform: uppercase;
+      margin-bottom: 15px; 
+    }
+    p {
+      font-size: 1.2em;
+      color: $cont_exp_p; 
+    }
+}
 
 .video-section {
   position: relative;
   width: 100%;
+  
   overflow: hidden; }
 
 #video-elem {
-  width: 100%;
-  height: 100%; }
+  width: 100%; 
+height: 100%;}
 
 video::-webkit-media-controls {
   display: none !important; }
@@ -334,21 +353,29 @@ video::-webkit-media-controls {
   bottom: 20px;
   right: 250px;
   left: 250px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: $backg_video_exp;
   opacity: 0;
-  transition: opacity 0.3s ease;
-  border-radius: 10px; }
-  .video-overlay h2 {
+  transition: opacity 0.3s ease; 
+  border-radius: 10px;
+
+  h2{
     padding-top: 20px;
     padding-bottom: 30px;
-    color: #260101; }
-  .video-overlay:hover {
-    opacity: 0.8; }
-  .video-overlay ul {
-    list-style: none; }
-    .video-overlay ul .title {
-      font-weight: bold; }
+    color: $h2_exp;
 
+  }
+
+  &:hover {
+  opacity: 0.8; }
+  ul{
+    list-style: none;
+    .title{
+      font-weight: bold;
+    }
+  }
+
+}
+*/
 /*TRABALHOS*/
 .trabalho {
   background: #D4AF37;
@@ -399,7 +426,6 @@ video::-webkit-media-controls {
     padding: 5px; }
 
 .navbar-collapse ul li {
-  padding-left: 10px;
   padding-top: 0;
   padding-bottom: 0; }
   .navbar-collapse ul li a {
@@ -424,6 +450,9 @@ video::-webkit-media-controls {
     .video-overlay h2 {
       padding-top: 5px;
       padding-bottom: 5px; } }
+.navbar-collapse ul li {
+  padding-left: 10px; }
+
 @media screen and (max-width: 768px) {
   .conteudo-curso .conteudo:hover {
     transform: scale(1); }
