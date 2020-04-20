@@ -15,11 +15,13 @@ h2 {
 /*
 #772704 MARROM ESCURO
 #D4AF37 AMARELO
+#260101 titulo marron escuro
 */
 /*FUNDO DO NAVBAR*/
 /*772704*/
 /*EXPERIENCIA*/
 /*RESPONSIVE*/
+/*TRABALHO*/
 /*MENU*/
 .fixed {
   position: fixed !important;
@@ -100,7 +102,7 @@ input {
   background: #CD7F32;
   transition: 0.5s;
   text-align: center;
-  line-height: 50px;
+  line-height: 42px;
   font-size: 36px; }
 
 input:checked ~ .toggle {
@@ -321,71 +323,21 @@ input:checked ~ .details{
     .content-box ul li .title {
       font-weight: bold; }
 
-/*                            
-.content-section {
-  width: 50%;
-  margin: 0 auto;
-  padding: 15% 0; 
-    h2 {
-      text-transform: uppercase;
-      margin-bottom: 15px; 
-    }
-    p {
-      font-size: 1.2em;
-      color: $cont_exp_p; 
-    }
-}
-
-.video-section {
-  position: relative;
-  width: 100%;
-  
-  overflow: hidden; }
-
-#video-elem {
-  width: 100%; 
-height: 100%;}
-
-video::-webkit-media-controls {
-  display: none !important; }
-
-.video-overlay {
-  position: absolute;
-  top: 20px;
-  bottom: 20px;
-  right: 250px;
-  left: 250px;
-  background-color: $backg_video_exp;
-  opacity: 0;
-  transition: opacity 0.3s ease; 
-  border-radius: 10px;
-
-  h2{
-    padding-top: 20px;
-    padding-bottom: 30px;
-    color: $h2_exp;
-
-  }
-
-  &:hover {
-  opacity: 0.8; }
-  ul{
-    list-style: none;
-    .title{
-      font-weight: bold;
-    }
-  }
-
-}
-*/
 /*TRABALHOS*/
 .trabalho {
   background: #D4AF37;
   height: 150px;
-  max-height: auto; }
+  max-height: auto;
+  text-align: center; }
   .trabalho h2 {
     padding-top: 20px;
+    padding-bottom: 20px;
     color: #260101; }
+  .trabalho a {
+    color: #260101;
+    font-size: 20px; }
+    .trabalho a:hover {
+      text-decoration: none; }
 
 /*CURSOS*/
 .curso {
@@ -402,7 +354,9 @@ video::-webkit-media-controls {
   background: #D4AF37;
   border-radius: 5px;
   padding: 5px;
-  margin-right: 5px; }
+  margin-right: 5px;
+  height: 185px;
+  max-height: 200px; }
   .conteudo-curso .conteudo:hover {
     background: #CD7F32;
     transform: scale(1.1);

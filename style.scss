@@ -14,10 +14,12 @@ h2{
 }
 
 
+
                             /*VARIAVEIS*/
 /*
 #772704 MARROM ESCURO
 #D4AF37 AMARELO
+#260101 titulo marron escuro
 */
 
 $BACKG_HEADER: #131512; /*FUNDO DO NAVBAR*/
@@ -39,7 +41,6 @@ $backg_toggle_pessoal: #CD7F32;
 $h2_pessoal: #260101;
 $backg_details_pers: #CD7F32;
 $botao_acao: #D4AF37; /*772704*/
-$backg_trab: #D4AF37;
 $backg_cursos: #772704;
 $h2_title_curso: #D4AF37;
 $backg_content_curso: #D4AF37;
@@ -51,6 +52,11 @@ $btn_toggler_icon: #772704;
 $color_nav_brand: #D4AF37;
 $backg_color_navbar: #772704;
 $color_navbar_brand_hover: #D4AF37;
+                              /*TRABALHO*/
+$backg_trab: #D4AF37;
+$a_trabalho: #260101;
+$p_trabalho: #260101;
+
                               /*MENU*/
 .fixed {
   position: fixed!important;
@@ -141,7 +147,7 @@ input{
   background: $backg_toggle_pessoal;
   transition: 0.5s;
   text-align: center;
-  line-height: 50px;
+  line-height: 42px;
   font-size: 36px;
 
 }
@@ -405,71 +411,26 @@ input:checked ~ .details{
 }
 
 
-/*                            
-.content-section {
-  width: 50%;
-  margin: 0 auto;
-  padding: 15% 0; 
-    h2 {
-      text-transform: uppercase;
-      margin-bottom: 15px; 
-    }
-    p {
-      font-size: 1.2em;
-      color: $cont_exp_p; 
-    }
-}
 
-.video-section {
-  position: relative;
-  width: 100%;
-  
-  overflow: hidden; }
 
-#video-elem {
-  width: 100%; 
-height: 100%;}
-
-video::-webkit-media-controls {
-  display: none !important; }
-
-.video-overlay {
-  position: absolute;
-  top: 20px;
-  bottom: 20px;
-  right: 250px;
-  left: 250px;
-  background-color: $backg_video_exp;
-  opacity: 0;
-  transition: opacity 0.3s ease; 
-  border-radius: 10px;
-
-  h2{
-    padding-top: 20px;
-    padding-bottom: 30px;
-    color: $h2_exp;
-
-  }
-
-  &:hover {
-  opacity: 0.8; }
-  ul{
-    list-style: none;
-    .title{
-      font-weight: bold;
-    }
-  }
-
-}
-*/
                                 /*TRABALHOS*/
 .trabalho {
   background: $backg_trab;
   height: 150px;
   max-height: auto; 
+  text-align: center;
   h2{
     padding-top: 20px;
+    padding-bottom: 20px;
     color: $h2_exp;
+  }
+
+  a{
+    color: $p_trabalho;
+    font-size: 20px;
+    &:hover{
+      text-decoration:none;
+    }
 
   }
 
@@ -494,6 +455,8 @@ video::-webkit-media-controls {
     border-radius: 5px; 
     padding: 5px;
     margin-right: 5px;
+    height: 185px;
+    max-height: 200px;
   &:hover {
     background: $cont_hover_backg_curso;
     transform: scale(1.1);
