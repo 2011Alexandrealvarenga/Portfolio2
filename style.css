@@ -23,6 +23,15 @@ h2 {
 /*RESPONSIVE*/
 /*TRABALHO*/
 /*MENU*/
+
+/*
+  novas cores
+#f1faee BRANCO
+#a8dadc AZUL CLARO
+#457b9d AZUL MEDIO
+#1d3557 AZUL ESCURO
+*/
+
 .fixed {
   position: fixed !important;
   width: 100%;
@@ -49,12 +58,12 @@ h2 {
       align-items: center;
       text-transform: uppercase; }
       .navbar-dark ul li:hover {
-        background: #772704;
-        border-radius: 10px; }
+        background: #1d3557;
+         }
       .navbar-dark ul li a {
-        color: #D4AF37; }
+        color: #f1faee; }
         .navbar-dark ul li a:hover {
-          color: #D4AF37; }
+          color: #f1faee; }
 
 /*PESSOAL*/
 .pessoal {
@@ -276,11 +285,15 @@ input:checked ~ .details{
     text-align: center; }
 
 .card-body {
-  transform: perspective(600px) rotateY(180deg); }
+  height: 100%;
+  transform: perspective(600px) rotateY(180deg);
+}
   .card-body h2 {
     padding-bottom: 20px; }
   .card-body ul {
-    padding: 0; }
+    padding: 0;
+    padding-top: 28px;
+     }
     .card-body ul li {
       list-style: none;
       margin-bottom: 0; }
@@ -358,7 +371,7 @@ input:checked ~ .details{
   height: 185px;
   max-height: 200px; }
   .conteudo-curso .conteudo:hover {
-    background: #CD7F32;
+    
     transform: scale(1.1);
     transition: 0.9s; }
     .conteudo-curso .conteudo:hover h4 {
@@ -389,15 +402,23 @@ input:checked ~ .details{
     padding: 0; }
 
 /*QUERIES*/
+/*405 para baixo aumenta o espaçamento*/
+@media screen and (max-width: 405px) {
+  .trabalho{
+    height: 185px;
+  }
+}
+
 /*768 para cima esconder menu1*/
 @media screen and (min-width: 992px) {
   .navbar-brand {
     display: none; } }
 /*767 PARA BAIXO TIRA PADDING */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  /*
   .content_formacao {
     padding: 20px; }
-
+*/
   .video-overlay {
     position: absolute;
     top: 10px;
@@ -407,8 +428,10 @@ input:checked ~ .details{
     .video-overlay h2 {
       padding-top: 5px;
       padding-bottom: 5px; } }
+      /*
 .navbar-collapse ul li {
   padding-left: 10px; }
+  */
 
 @media screen and (max-width: 768px) {
   .conteudo-curso .conteudo:hover {
