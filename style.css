@@ -58,7 +58,7 @@ h2 {
       align-items: center;
       text-transform: uppercase; }
       .navbar-dark ul li:hover {
-        background: #1d3557;
+        background: #772704;
          }
       .navbar-dark ul li a {
         color: #f1faee; }
@@ -327,27 +327,35 @@ input:checked ~ .details{
 */
 /*EXPERIENCIA PROFISSIONAL*/
 .experiencia {
-  background: #D4AF37; }
+  background: #772704; }
 
 .content-box {
   height: auto; }
   .content-box ul {
     list-style-type: none; }
     .content-box ul li .title {
-      font-weight: bold; }
+      font-weight: bold; 
+      color: #D4AF37;
 
+    }
+.content-box span{
+  color: #D4AF37;
+}
+.content-box h2{
+color: #D4AF37;
+}
 /*TRABALHOS*/
 .trabalho {
-  background: #D4AF37;
+  background: #772704;
   height: 150px;
   max-height: auto;
   text-align: center; }
   .trabalho h2 {
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #260101; }
+    color: #D4AF37; }
   .trabalho a {
-    color: #260101;
+    color: #D4AF37;
     font-size: 20px; }
     .trabalho a:hover {
       text-decoration: none; }
@@ -366,7 +374,7 @@ input:checked ~ .details{
 .conteudo-curso .conteudo {
   background: #D4AF37;
   border-radius: 5px;
-  padding: 5px;
+  padding-left: 15px;
   margin-right: 5px;
   height: 185px;
   max-height: 200px; }
