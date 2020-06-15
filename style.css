@@ -134,9 +134,9 @@ input:checked ~ .toggle {
   transition: 0.5s;
   opacity: 0; }
   .details h2 {
-    color: #260101; }
+    color: #772704; }
   .details span {
-    color: #260101; }
+    color: #000; }
   .details ul {
     padding-left: 10px;
     padding-top: 10px; }
@@ -245,14 +245,16 @@ input:checked ~ .details{
 .formacao {
   height: auto;
   padding-bottom: 30px;
-  background: #772704; }
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #e9ecef; }
   .formacao .escolaridade {
     padding-top: 50px;
     padding-bottom: 20px; }
   .formacao h2 {
-    color: #D4AF37; }
+    color: #772704; }
   .formacao p {
-    color: #260101; }
+    color: #000; }
 
 .middle {
   top: 50%;
@@ -327,45 +329,119 @@ input:checked ~ .details{
 */
 /*EXPERIENCIA PROFISSIONAL*/
 .experiencia {
-  background: #772704; }
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #e9ecef; }
 
 .content-box {
+  width: 600px;
   height: auto; }
   .content-box ul {
+    padding-left: 0;
     list-style-type: none; }
     .content-box ul li .title {
       font-weight: bold; 
-      color: #D4AF37;
+      color: #772704;
 
     }
 .content-box span{
-  color: #D4AF37;
+  color: #000;
 }
 .content-box h2{
-color: #D4AF37;
+color: #772704;
 }
 /*TRABALHOS*/
 .trabalho {
-  background: #772704;
-  height: 150px;
+  background: #e9ecef;
+  height: auto;
   max-height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center; }
   .trabalho h2 {
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #D4AF37; }
+    color: #772704; }
   .trabalho a {
     color: #D4AF37;
     font-size: 20px; }
     .trabalho a:hover {
       text-decoration: none; }
 
+
+
+
+.trabalhos{
+  justify-content: center;
+}
+
+.trabalho .trabalhos{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.trabalho .trabalhos .unid-trabalho{
+  width: 310px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 30px;
+}
+
+
+
+.trabalhos .foto-trabalho{
+  width: 300px;
+  background: #fff;
+  height: 200px;
+  max-height: 200px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.trabalhos .foto-trabalho .img-trabalho{
+  object-fit: cover;
+  width: 300px;
+  height: 200px;
+}
+
+.trabalhos .desc-trabalho{
+  width: 300px;
+  background: #fff;
+  height: 200px;
+  max-height: 200px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+}
+.trabalhos .desc-trabalho .p-desc{
+  font-weight: bold;
+  color: #000;
+  font-size: 16px;
+  padding-top: 20px;
+}
+.desc-trabalho .p-desc-b{
+  padding-top: 20px;
+  color: #000;
+  font-size: 16px;
+}
+
+.trabalho .trabalhos .unid-trabalho h3{
+  color: #000;
+}
+
+
+
+
+
+
+
 /*CURSOS*/
 .curso {
-  padding-bottom: 100px;
-  background: #772704; }
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background: #e9ecef; }
   .curso h2 {
-    color: #D4AF37; }
+    color: #772704; }
   .curso h4 {
     padding: 10px 0; }
   .curso .ano {
@@ -413,7 +489,7 @@ color: #D4AF37;
 /*405 para baixo aumenta o espaçamento*/
 @media screen and (max-width: 405px) {
   .trabalho{
-    height: 185px;
+    height: auto;
   }
 }
 
