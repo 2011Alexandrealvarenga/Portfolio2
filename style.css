@@ -115,7 +115,7 @@ input {
   font-size: 36px; }
 
 input:checked ~ .toggle {
-  box-shadow: 0 0 0 500px #D4AF37;
+  box-shadow: 0 0 0 500px #fff;
   transform: rotate(200deg); }
 
 .imgBx,
@@ -448,7 +448,7 @@ color: #772704;
     text-decoration: italic; }
 
 .conteudo-curso .conteudo {
-  background: #D4AF37;
+  background: white;
   border-radius: 5px;
   padding-left: 15px;
   margin-right: 5px;
@@ -459,9 +459,9 @@ color: #772704;
     transform: scale(1.1);
     transition: 0.9s; }
     .conteudo-curso .conteudo:hover h4 {
-      color: #fff; }
+      color: #000; }
     .conteudo-curso .conteudo:hover p {
-      color: #fff; }
+      color: #000; }
 
 /*RESPONSIVE*/
 .navbar-toggler-icon {
