@@ -230,7 +230,18 @@ input:checked ~ .details{
   height: 200px;
   background: linear-gradient(510deg, #CD7F32, #D4AF37, #F2D0A7, #BF6E26, #BF895A);
   background-size: 400% 400%;
-  animation: BackgroundGradient 10s ease infinite; }
+  animation: BackgroundGradient 10s ease infinite; 
+  
+}
+
+.obj-profissional p{
+  text-align: center;
+      color: #000;
+}
+.obj-profissional a:hover{
+  text-decoration: none;
+}
+
   .obj-profissional .col {
     padding-top: 40px; }
 
