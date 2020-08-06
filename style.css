@@ -319,30 +319,12 @@ input:checked ~ .details{
   text-align: center;
   width: 100%; }
 
-/*
-.sm {
-  margin: 20px 0; 
-    a {
-      display: inline-flex;
-      width: 40px;
-      height: 40px;
-      justify-content: center;
-      align-items: center;
-      color: #2c3e50;
-      font-size: 18px;
-      transition: 0.4s;
-      border-radius: 50%; 
-      &:hover {
-        background: #2c3e50;
-        color: white; }
-    }
-}
-*/
+
 /*EXPERIENCIA PROFISSIONAL*/
 .experiencia {
   padding-top: 100px;
   padding-bottom: 100px;
-  background: #e9ecef; }
+  background: #fff; }
 
 .content-box {
   width: 600px;
