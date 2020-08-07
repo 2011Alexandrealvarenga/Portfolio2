@@ -443,7 +443,7 @@ color: #000;
       color: #000; }
 
 .conteudo-curso{
-  display: inline;
+  display: flex;
   justify-content: center;
 }
 .conteudo-curso .item{
