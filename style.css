@@ -441,7 +441,10 @@ color: #000;
       color: #000; }
     .conteudo-curso .conteudo:hover p {
       color: #000; }
-
+.conteudo-curso .item{
+  width: 300px;
+  margin: 10px;
+}
 /*RESPONSIVE*/
 .navbar-toggler-icon {
   COLOR: #fff!important; }
