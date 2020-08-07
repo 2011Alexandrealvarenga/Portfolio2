@@ -237,13 +237,12 @@ input:checked ~ .details{
 .formacao {
   height: auto;
   padding-bottom: 30px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 50px 0;
   background: #e9ecef; }
   .formacao .escolaridade {
-    padding-top: 50px;
-    padding-bottom: 20px; }
+     }
   .formacao h2 {
+    padding: 20px 0;
     color: #000; }
   .formacao p {
     color: #000; }
@@ -303,8 +302,7 @@ input:checked ~ .details{
 
 /*EXPERIENCIA PROFISSIONAL*/
 .experiencia {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 50px 0;
   background: #fff; }
 
 .content-box {
@@ -323,6 +321,7 @@ input:checked ~ .details{
   color: #000;
 }
 .content-box h2{
+padding: 20px 0;
 color: #000;
 }
 /*TRABALHOS*/
@@ -409,7 +408,7 @@ color: #000;
 
 /*CURSOS*/
 .curso {
-  padding: 60px 0 50px 0;
+  padding: 50px 0 50px 0;
   background: #fff; }
   .curso h2 {
     color: #000; }
