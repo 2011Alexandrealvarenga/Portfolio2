@@ -438,14 +438,14 @@ color: #000;
       color: #000; }
 
 .conteudo-curso{
-  display: flex;
+  display: inline;
   justify-content: center;
 }
 .conteudo-curso .item{
   margin: 10px;
 }
 .curso .conteudo-curso .item img{
-  width: 280px;
+  width: 360px;
   height: auto;
 }
 /*RESPONSIVE*/
@@ -490,12 +490,6 @@ color: #000;
 }
 
 /*QUERIES*/
-/*405 para baixo aumenta o espaçamento*/
-@media screen and (max-width: 405px) {
-  .trabalho{
-    height: auto;
-  }
-}
 
 /*768 para cima esconder menu1*/
 @media screen and (min-width: 992px) {
@@ -509,10 +503,7 @@ color: #000;
 /*767 PARA BAIXO TIRA PADDING */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  /*
-  .content_formacao {
-    padding: 20px; }
-*/
+
   .video-overlay {
     position: absolute;
     top: 10px;
@@ -523,9 +514,7 @@ color: #000;
       padding-top: 5px;
       padding-bottom: 5px; } }
       
-@media screen and (min-width: 768px) and (max-width: 991px) {
-   
-}
+
 @media screen and (max-width: 768px) {
   .conteudo-curso .conteudo:hover {
     transform: scale(1); }
@@ -540,6 +529,10 @@ color: #000;
     .video-overlay h2 {
       padding-top: 5px;
       padding-bottom: 5px; } }
-/*# sourceMappingURL=style.css.map */
 
-/*# sourceMappingURL=style.css.map */
+@media screen and (max-width: 405px) {
+  .trabalho{
+    height: auto;
+  }
+}
+
