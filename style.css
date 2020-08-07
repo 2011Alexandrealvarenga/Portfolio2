@@ -238,10 +238,9 @@ input:checked ~ .details{
   height: auto;
   padding: 50px 0;
   background: #e9ecef; }
-  .formacao .escolaridade {
-    padding-top: 50px;
-    padding-bottom: 20px; }
+
   .formacao h2 {
+    padding: 20px 0;
     color: #000; }
   .formacao p {
     color: #000; }
