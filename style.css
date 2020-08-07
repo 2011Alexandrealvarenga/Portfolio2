@@ -311,7 +311,8 @@ input:checked ~ .details{
   width: 600px;
   height: auto; }
   .content-box ul {
-    padding-left: 0;
+    background: #e9ecef;
+    padding: 10px 15px;
     list-style-type: none; }
     .content-box ul li .title {
       font-weight: bold; 
