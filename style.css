@@ -303,7 +303,8 @@ input:checked ~ .details{
 
 /*EXPERIENCIA PROFISSIONAL*/
 .experiencia {
-  padding: 50px; 
+  padding-top: 100px;
+  padding-bottom: 100px;
   background: #fff; }
 
 .content-box {
@@ -311,7 +312,6 @@ input:checked ~ .details{
   height: auto; }
   .content-box ul {
     padding-left: 0;
-    margin-bottom: 0;
     list-style-type: none; }
     .content-box ul li .title {
       font-weight: bold; 
@@ -323,11 +323,6 @@ input:checked ~ .details{
 }
 .content-box h2{
 color: #000;
-}
-.experiencia .content-box .item{
-  padding: 10px;
-  margin: 10px;
-  background: #e9ecef;
 }
 /*TRABALHOS*/
 .trabalho {
