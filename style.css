@@ -418,7 +418,7 @@ color: #000;
 .curso {
   padding-top: 100px;
   padding-bottom: 200px;
-  background: #e9ecef; }
+  background: #fff; }
   .curso h2 {
     color: #000; }
   .curso h4 {
@@ -441,13 +441,17 @@ color: #000;
       color: #000; }
     .conteudo-curso .conteudo:hover p {
       color: #000; }
+
 .conteudo-curso{
-  display: flex;
+  display: inline;
   justify-content: center;
 }
 .conteudo-curso .item{
-  width: 300px;
   margin: 10px;
+}
+.curso .conteudo-curso .item img{
+  width: 280px;
+  height: auto;
 }
 /*RESPONSIVE*/
 .navbar-toggler-icon {
@@ -524,7 +528,9 @@ color: #000;
       padding-top: 5px;
       padding-bottom: 5px; } }
       
-
+@media screen and (min-width: 768px) and (max-width: 991px) {
+   
+}
 @media screen and (max-width: 768px) {
   .conteudo-curso .conteudo:hover {
     transform: scale(1); }
