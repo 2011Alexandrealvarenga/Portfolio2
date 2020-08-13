@@ -396,13 +396,14 @@ color: #000;
   font-size: 16px;
 }
 
-.trabalho .trabalhos .unid-trabalho h3{
-  color: #000;
-}
-
-
-
-
+.trabalho .trabalhos .unid-trabalho h3{ color: #000;}
+.trabalho .funcoes{
+  width: 400px;
+  background: #fff;
+  padding: 10px;
+  margin-top: 50px;}
+.trabalho .funcoes h3{padding: 10px;}
+.trabalho .funcoes ul li{text-align: left;}
 
 
 
