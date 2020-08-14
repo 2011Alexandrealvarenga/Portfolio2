@@ -220,8 +220,16 @@ input:checked ~ .details{
       color: #000;
       margin: 0;
 }
+
 .obj-profissional a:hover{
   text-decoration: none;
+}
+.obj-profissional .desc{
+  justify-content: center;
+  display: flex;
+}
+.obj-profissional .desc h6{
+  width: 320px;
 }
 
 
