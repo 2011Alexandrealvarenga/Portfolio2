@@ -386,17 +386,39 @@ color: #000;
 .trabalhos .desc-trabalho{
   width: 300px;
   background: #fff;
-  height: 200px;
-  max-height: 200px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 0 5px; 
   padding: 10px;
+  /*height: 200px;
+  max-height: 200px;*/
+  /* margin-left: 5px;
+  margin-right: 5px;*/
+  height: auto;
 }
+.trabalhos .desc-trabalho h4{font-weight: bold;color:#000;}
+.trabalhos .desc-trabalho p{
+  margin: 0;font-weight: bold;color:red;
+}
+.trabalhos .desc-trabalho ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+
+.trabalhos .desc-trabalho ul li {
+    padding: 0 10px;
+    background: gray;
+    margin: 5px;
+    border-radius: 20px;
+    color: #fff;
+}
+
 .trabalhos .desc-trabalho .p-desc{
   font-weight: bold;
   color: #000;
   font-size: 16px;
-  padding-top: 20px;
+  padding: 20px 0; 
 }
 .desc-trabalho .p-desc-b{
   padding-top: 20px;
