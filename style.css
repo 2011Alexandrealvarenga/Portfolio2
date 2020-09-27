@@ -370,7 +370,7 @@ color: #000;
   margin-right: 10px;
   margin-left: 10px;
   padding-top: 30px;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 
@@ -382,6 +382,7 @@ color: #000;
   max-height: 200px;
   margin-right: 5px;
   margin-left: 5px;
+  border-radius: 20px;
 }
 .trabalhos .foto-trabalho .img-trabalho{
   object-fit: cover;
