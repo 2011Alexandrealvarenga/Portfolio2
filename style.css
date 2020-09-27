@@ -227,11 +227,17 @@ input:checked ~ .details{
 .obj-profissional .desc{
   justify-content: center;
   display: flex;
+  background: #fff;
+  padding: 10px;
 }
 .obj-profissional .desc h6{
   width: 320px;
 }
-
+.objetivo-profissional2 {
+    width: 600px;
+    background: #fff;
+    padding: 10px;
+}
 
 
 @keyframes BackgroundGradient {
