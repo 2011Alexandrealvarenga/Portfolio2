@@ -101,7 +101,11 @@ h1 {text-align: center;color: #fff; }
 .objetivo-profissional2 {width: 600px;
     background: #fff;
     padding: 10px;
+    text-align: center;
     border-radius: 5px;}
+
+i.fa.fa-github {font-size: 40px;color: #000;padding: 10px;}
+
 @keyframes BackgroundGradient {
   0% {background-position: 0% 50%; }
   50% {background-position: 100% 50%; }
