@@ -436,6 +436,7 @@ color: #000;
 .trabalho .trabalhos .unid-trabalho h3{ color: #000;}
 .trabalho .funcoes{
   width: 400px;
+  border-radius: 10px;
   background: #fff;
   padding: 10px;
   margin-top: 50px;}
