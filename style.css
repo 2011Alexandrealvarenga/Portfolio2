@@ -3,13 +3,10 @@ body, html {
   height: 100%;
   margin: 0;
   padding: 0; }
+h1,h2,h3,h4,h5,h6{font-family: 'Fredoka One', cursive;}
+h2, h5 {text-align: center;}
 
-h2, h5 {
-  text-align: center;
-  font-family: 'Roboto Mono', monospace; }
-
-h2 {
-  font-size: 32px; }
+h2 {  font-size: 32px; }
 
 
 .fixed {
@@ -237,6 +234,7 @@ input:checked ~ .details{
     width: 600px;
     background: #fff;
     padding: 10px;
+    border-radius: 5px;
 }
 
 
@@ -325,6 +323,7 @@ input:checked ~ .details{
   .content-box ul {
     background: #e9ecef;
     padding: 10px 15px;
+    border-radius: 5px;
     list-style-type: none; }
     .content-box ul li .title {
       font-weight: bold; 
@@ -371,6 +370,7 @@ color: #000;
   margin-right: 10px;
   margin-left: 10px;
   padding-top: 30px;
+  border-radius: 5px;
 }
 
 
@@ -387,6 +387,7 @@ color: #000;
   object-fit: cover;
   width: 300px;
   height: 200px;
+  border-radius: 20px 20px 0 0;
 }
 
 .trabalhos .desc-trabalho{
