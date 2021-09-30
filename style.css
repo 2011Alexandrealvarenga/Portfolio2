@@ -247,7 +247,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
   justify-content: center;
 }
 .conteudo-curso .item{margin: 10px;}
-.curso .conteudo-curso .item img{width: 280px;  height: auto;}
+.curso .conteudo-curso .item img{width: 280px;  height: 160px; object-fit: cover;}
 /*RESPONSIVE*/
 .navbar-toggler-icon {COLOR: #fff!important; }
 .navbar-toggler {background: #fff; }
