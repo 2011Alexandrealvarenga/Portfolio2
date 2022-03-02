@@ -245,6 +245,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .conteudo-curso .item{margin: 10px;}
 .curso .conteudo-curso .item img{width: 280px;  height: 160px; object-fit: cover;}
