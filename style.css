@@ -220,7 +220,29 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
 .trabalho .funcoes ul li{text-align: left;}
 
 /*CURSOS*/
-.curso { padding: 50px 0 50px 0;  background: #fff; }
+.cursos-2{
+  padding-bottom: 100px;
+}
+.cursos-2 .w3-content {
+  background: yellow;
+  justify-content: center;
+  display: flex;
+}
+.cursos-2 .w3-content .mySlides {
+  width: 40%;
+}
+.cursos-2 .w3-row-padding {
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.cursos-2 .w3-row-padding img{
+  width: 200px;
+}
+/* .curso { padding: 50px 0 50px 0;  background: #fff; }
   .curso h2 { color: #000; }
   .curso h4 {padding: 10px 0; }
   .curso .ano { text-decoration: italic; }
@@ -248,7 +270,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
   margin-bottom: 50px;
 }
 .conteudo-curso .item{margin: 10px;}
-.curso .conteudo-curso .item img{width: 280px;  height: 160px; object-fit: cover;}
+.curso .conteudo-curso .item img{width: 280px;  height: 160px; object-fit: cover;} */
 /*RESPONSIVE*/
 .navbar-toggler-icon {COLOR: #fff!important; }
 .navbar-toggler {background: #fff; }
@@ -289,6 +311,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
 }
 @media screen (max-width: 992px) {
   .navbar-collapse ul li{ padding: 20px 0!important;  }
+  
 }
 /*767 PARA BAIXO TIRA PADDING */
 
@@ -311,4 +334,6 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
     .video-overlay h2 {
       padding-top: 5px;
       padding-bottom: 5px; } 
+      .cursos-2 .w3-content .mySlides {width: 90%;}
+      .cursos-2 .w3-row-padding img {width: 100px;}
     }
