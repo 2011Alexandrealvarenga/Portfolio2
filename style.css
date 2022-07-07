@@ -85,9 +85,9 @@ h1 {text-align: center;color: #fff; }
 
 /*objetivo profissional*/
 .obj-profissional {height: auto;
-  background: linear-gradient(510deg, #fff, #f3dbbc, #e9ecef, #dee2e6);
-  background-size: 400% 400%;
-  animation: BackgroundGradient 10s ease infinite; 
+  /* background: linear-gradient(510deg, #fff, #f3dbbc, #e9ecef, #dee2e6); */
+  /* background-size: 400% 400%; */
+  /* animation: BackgroundGradient 10s ease infinite;  */
   padding: 40px 0;}
 .obj-profissional p{text-align: center;
       color: #000;
@@ -99,7 +99,7 @@ h1 {text-align: center;color: #fff; }
   padding: 10px;}
 .obj-profissional .desc h6{width: 320px;}
 .objetivo-profissional2 {width: 600px;
-    background: #fff;
+    background: #e9ecef;
     padding: 10px;
     text-align: center;
     border-radius: 5px;}
