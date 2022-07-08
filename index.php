@@ -405,6 +405,7 @@
         <img class="mySlides" src="wordpress-plugin.jpg" style="display:none">
         <img class="mySlides" src="wordpress-seo.jpg" style="display:none">
         <img class="mySlides" src="wordpress.jpg" style="display:none">
+        <img class="mySlides" src="php-mateus.jpg" style="display:none">
 
         
       </div>
@@ -415,6 +416,7 @@
           <img class="demo w3-opacity w3-hover-opacity-off" src="wordpress-plugin.jpg" onclick="currentDiv(4)">
           <img class="demo w3-opacity w3-hover-opacity-off" src="wordpress-seo.jpg" onclick="currentDiv(5)">
           <img class="demo w3-opacity w3-hover-opacity-off" src="wordpress.jpg" onclick="currentDiv(6)">
+          <img class="demo w3-opacity w3-hover-opacity-off" src="wordpress.jpg" onclick="currentDiv(7)">
 
         </div>
       
