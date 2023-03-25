@@ -99,7 +99,7 @@ h1 {text-align: center;color: #fff; }
   padding: 10px;}
 .obj-profissional .desc h6{width: 320px;}
 .objetivo-profissional2 {width: 600px;
-    background: #e9ecef;
+    background: #f9f9f9;
     padding: 10px;
     text-align: center;
     border-radius: 5px;}
@@ -141,7 +141,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
 .experiencia {padding: 50px 0; background: #fff; }
 .content-box {width: 600px; height: auto; }
 .content-box ul {
-    background: #f6f6f6;
+    background: #f9f9f9;
     padding: 10px 15px;
     border-radius: 5px;
     list-style-type: none; }
@@ -151,7 +151,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
 .content-box span{color: #000;}
 .content-box h2{padding: 20px 0;color: #000;}
 /*TRABALHOS*/
-.trabalho { background: #e9ecef;
+.trabalho { background: #f9f9f9;
   height: auto;
   max-height: auto;
   padding: 50px 0;
@@ -228,7 +228,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
   display: flex;
 }
 .cursos-2 .w3-content .mySlides {
-  width: 40%;
+  width: 29%;
   height: 390px;
   object-fit: cover;
 }
@@ -336,7 +336,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
       padding-top: 5px;
       padding-bottom: 5px; } 
       .cursos-2 .w3-content .mySlides {
-        width: 90%;
+        width: 100%;
         height: 230px;
       }
       .cursos-2 .w3-row-padding img {width: 100px;}
