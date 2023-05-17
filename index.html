@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <title>Alexandre Alvarenga - PHP/Wordpress | Front-End e Back-End</title>
   <meta name="description" content="Olá, meu nome é Alexandre, tenho 37 anos (10/1985), moro em São Paulo, falo inglês, venho trabalhando com desenvolvimento web Fevevereiro/2020, com foco maior em back-end do Wordpress e PHP, conheço front-end tambem." />
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bootstrap.css">
   <link rel="stylesheet" href="style.css">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -51,10 +52,10 @@
   </section>
   <section class="pessoal " id="personal">
       <div class="card"> 
-         <input type="checkbox" name="">
-           <div class="toggle"> + </div>
+        <input type="checkbox" name="">
+          <div class="toggle"> + </div>
             <div class="imgBx">
-             <img title="sobre mim" alt="ir para sobre mim" src="me.JPG" width="100%" height="100%" alt="ir para sobre mim" title="sobre mim">
+            <img title="sobre mim" alt="ir para sobre mim" src="me.JPG" width="100%" height="100%" alt="ir para sobre mim" title="sobre mim">
             </div>
             <div class="details">
               <h2>Alexandre Bruno F. de Alvarenga</h2>
@@ -67,7 +68,6 @@
                 </ul>
             </div>
       </div>
-
   </section>
   <section class="obj-profissional" id="professional">
     <div class="container">
@@ -77,7 +77,7 @@
             <h2 class="pb-4">Objetivo Profissional</h2>
             <h1 >Analista Full Stack WordPress/PHP Pleno</h1>
           
-             <p>Olá, meu nome é Alexandre, tenho 37 anos (10/1985), moro em São Paulo, 
+            <p>Olá, meu nome é Alexandre, tenho 37 anos (10/1985), moro em São Paulo, 
             falo inglês, venho trabalhando com desenvolvimento web Fevevereiro/2020, com foco maior em back-end do Wordpress e PHP, conheço front-end tambem.
             </p> 
 
@@ -85,8 +85,7 @@
             </a>
             <a href="https://www.linkedin.com/in/alexandre-bruno-alvarenga-88959b103/" alt="ir para linkedin" title="linkedin" target="_blank">
               <i class="fa fa-linkedin"></i>
-            </a>
-            
+            </a>            
             <a href="cv.pdf" alt="ir para curriculum" title="curriculum" target="_blank">
               <i class="fa fa-file"></i>
             </a>
@@ -95,7 +94,6 @@
       </div>
     </div>
   </section>
-
   <section class="tools" id="tecnologias">
     <div class="container">
       <div class="row">
@@ -229,16 +227,11 @@
               </div>
               <hr class="line">
             </div>
-           
+          
           </div>
       </div>
     </div>
   </section>
-
-
-
-
-
   <section class="formacao" id="formacao">
     <div class="container">
       <div class="row">
@@ -299,7 +292,6 @@
     </div><!--ESCOLARIDADE -->
   </section>
   <section class="experiencia " id="experience"><!--EXPERIENCIA -->
-
       <div class="col d-flex justify-content-center">
         <div class="content-box">
           <h2>Experiências Profissionais</h2>
@@ -434,7 +426,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <!-- <div class="row">
         <div class="col d-flex justify-content-center">
           <div class="funcoes">
             <h3>Funções Aplicadas</h3>
@@ -444,7 +436,7 @@
               <li><b>Criação de plugins</b></li>
               <li><b>Sites bem ranqueados no Page Speed</b> site construidos de acordo com PageSpeed, carregamento de acordo com a pagina usada otimizando assim o CSS, JS para melhor rankiamento.</li>
               <li><b>Menu:</b> Dinâmico com bootstrap, Criado apartir de categoria ou páginas.</li>
-              <li><b>Carousel/Banner com Bottstrap</b></li>
+              <li><b>Carousel/Banner com Bootstrap</b></li>
               <li><b>IF e Queries</b> Lista com IF, ou Queries filtrado por: Autor, Categoria, Quantidade, pulando itens.</li>
               <li><b>Paginação</b></li>
               <li><b>Posts:</b>Posts com comentarios, lista de ultimos post, por autor, por categoria</li>
@@ -457,7 +449,7 @@
             </ul>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
       <a href="https://api.whatsapp.com/send?phone=5511979573056&text=Olá, Gostaria de falar com o Alexandre Bruno." alt="ir para whatsapp" title="whatsapp" class="float" target="_blank">
@@ -500,25 +492,25 @@
         </div>
       
       <script>
-      function currentDiv(n) {
-        showDivs(slideIndex = n);
-      }
-      
-      function showDivs(n) {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("demo");
-        if (n > x.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = x.length}
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";
+        function currentDiv(n) {
+          showDivs(slideIndex = n);
         }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+          }
+          x[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " w3-opacity-off";
         }
-        x[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " w3-opacity-off";
-      }
       </script>
     </div>
   </section>
