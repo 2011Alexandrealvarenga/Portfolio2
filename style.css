@@ -133,18 +133,23 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
     flex-wrap: row;
     flex-wrap: wrap;
 }
+.tools .content-item .item-line {
+  margin: 0 16px 16px 16px;
+  transition: 0.5s ease-in-out;
+}
+.tools .content-item .item-line:hover{
+
+  transform:translateY(-5px);
+}
 .tools .content-item .item-line .item {
   /* border: 1px solid red; */
   text-align: center;
   width: 100px;
   background: #e9ecef;
-  padding: 20px 8px 8px 8px;
+  padding: 20px 8px 4px 8px;
   border-radius: 0px 30px 0 0px;
 }
-.tools .content-item .item-line {
-  margin: 0 16px;
 
-}
 
 .tools .content-item .item-line .item img {
   width: 100%;
@@ -360,8 +365,27 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
 
 /*QUERIES*/
 /*405 para baixo aumenta o espaçamento*/
-@media screen and (max-width: 405px) {
+@media (max-width: 576px) {
+
+  /* tecnologias */
+  .tools .content-item .item-line {
+    margin: 0 8px 16px 8px;
+  }
+  .tools .content-item .item-line .item{
+    width: 80px;
+  }  
+  .tools .content-item .item-line .item img {
+    height: 30px;
+  }
+  .tools .content-item .item-line .item .title{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 424px) {
   .trabalho{ height: auto; }
+
+
 }
 
 /*768 para cima esconder menu1*/
@@ -398,4 +422,4 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
         height: 230px;
       }
       .cursos-2 .w3-row-padding img {width: 100px;}
-    }
+}
