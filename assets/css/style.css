@@ -20,7 +20,7 @@ h2 {  font-size: 32px; }
 .navbar-dark ul li { display: flex;
       align-items: center;
       text-transform: uppercase; }
-.navbar-dark ul li:hover {background: #772704;}
+/* .navbar-dark ul li:hover {background: #772704;} */
 .navbar-dark ul li a {color: #f1faee; }
 .navbar-dark ul li a:hover {color: #f1faee; }
 
