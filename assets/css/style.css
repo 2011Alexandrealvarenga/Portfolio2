@@ -272,11 +272,13 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
     padding: 0;
     margin:0;}
 .trabalhos .desc-trabalho ul li {
+  /* background: gray;  */
     padding: 0 10px;
-    background: gray;
     margin: 5px;
     border-radius: 20px;
-    color: #fff;}
+    color: #000;
+    border: 1px solid gray;
+  }
 .trabalhos .desc-trabalho .p-desc{
   font-weight: bold;
   color: #000;
