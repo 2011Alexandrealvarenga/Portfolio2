@@ -117,7 +117,20 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
   100% {background-position: 0% 50%; } 
 }
 
-
+.obj-profissional .objetivo-profissional2 .content-contact {
+  display: flex;
+  /* border: 1px solid green; */
+  justify-content: center;
+}
+.obj-profissional .objetivo-profissional2 .content-contact .item {
+  margin: 16px 16px 0 16px;
+}
+.obj-profissional .objetivo-profissional2 .content-contact .item a {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
 
 
 
