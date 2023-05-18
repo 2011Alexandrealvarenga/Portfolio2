@@ -304,9 +304,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
   display: flex;
 }
 .cursos-2 .w3-content .mySlides {
-  width: 29%;
-  height: 390px;
-  object-fit: cover;
+  width: 600px;
 }
 .cursos-2 .w3-row-padding {
   justify-content: center;
@@ -430,9 +428,10 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
     .video-overlay h2 {
       padding-top: 5px;
       padding-bottom: 5px; } 
-      .cursos-2 .w3-content .mySlides {
-        width: 100%;
-        height: 230px;
-      }
-      .cursos-2 .w3-row-padding img {width: 100px;}
+  .cursos-2 .w3-content .mySlides {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+  }
+  .cursos-2 .w3-row-padding img {width: 100px;}
 }
