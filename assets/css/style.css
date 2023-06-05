@@ -31,7 +31,7 @@ h2 {  font-size: 32px; }
 
 /*PESSOAL */ 
 .pessoal {
-  background: url(/assets/img/escritorio.jpg) no-repeat;
+  background: url(https://2011alexandrealvarenga.github.io/Portfolio2/assets/img/escritorio.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 500px;
@@ -261,7 +261,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
   object-fit: cover;
   width: 300px;
   height: 200px;
-  border-radius: 20px 20px 0 0;}
+  border-radius: 0px 20px 0px 0px;}
 .trabalhos .desc-trabalho{
   width: 300px;
   background: #fff;
