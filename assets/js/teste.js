@@ -1,1 +1,3 @@
-console.log('teste');
+window.onload = function() {
+  alert("A página foi carregada!");
+};
