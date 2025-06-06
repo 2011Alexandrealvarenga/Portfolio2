@@ -452,3 +452,23 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
   background: lightblue;
 }
 .tdu{text-decoration: underline;}
+    .eng-cont{
+      display: none;
+    }
+    .language{
+      padding: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      background: #000000;
+    }
+    .btn-eng-cont,
+    .btn-prt-cont{cursor: pointer;}
+
+    .language .ir-eua img,
+    .language .ir-brasil img  
+    {
+      height: 20px;
+      margin: 4px;
+    }
