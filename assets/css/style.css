@@ -1,6 +1,6 @@
 /* cores */
 :root {
-  --cinza-claro: #1481630A;
+  --cinza-claro: #fff;
 }
 /* fim cores */
 body, html {
@@ -8,7 +8,11 @@ body, html {
   height: 100%;
   margin: 0;
   padding: 0; }
-h1,h2,h3,h4,h5,h6{font-family: 'Play', sans-serif;}
+
+
+    .line{width: 100px; border: 3px solid red;margin: 0 auto;}
+
+h1,h2,h3,h4,h5,h6{font-family: 'Play', sans-serif; margin: 0;}
 p,a,li{font-family: 'Rajdhani', sans-serif;}
 p, span{font-size: 18px;}
 h2, h5 {text-align: center;}
@@ -116,9 +120,10 @@ h1 {
 .obj-profissional .desc h6{width: 320px;}
 .objetivo-profissional2 {width: 600px;
     background: var(--cinza-claro);
-    padding: 10px;
+    padding: 16px;
     text-align: center;
     border-radius: 5px;}
+
 
 i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 10px;}
 
@@ -201,10 +206,10 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
 .formacao {height: auto;
   padding-bottom: 30px;
   padding: 50px 0;
-  background: var(--cinza-claro); }
+  background: #f9f9f9 }
 
 .formacao .escolaridade {     }
-  .formacao h2 { padding: 20px 0;color: #000; }
+  .formacao h2 {color: #000; }
   .formacao p {color: #000; }
 .middle {top: 50%;left: 50%; transform: translate(-50%, -50%); }
 .card { width: 340px;height: 230px;border-radius: 10px; }
@@ -236,7 +241,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
       font-weight: bold; 
       color: #000; }
 .content-box span{color: #000;}
-.content-box h2{padding: 20px 0;color: #000;}
+.content-box h2{color: #000;}
 /*TRABALHOS*/
 .trabalho { background: var(--cinza-claro);
   height: auto;
@@ -272,7 +277,9 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
   background: #fff;
   margin: 0 5px; 
   padding: 10px;
-  height: auto;}
+  height: auto;
+  border-radius: 20px;
+}
 .trabalhos .desc-trabalho h4{font-weight: bold;color:#000;}
 .trabalhos .desc-trabalho p{ margin: 0;font-weight: bold;color:red;}
 .trabalhos .desc-trabalho ul {
@@ -386,6 +393,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
   box-shadow: 2px 2px 3px #999;
   z-index:100;}
 .my-float{ margin-top:16px;}
+.bx{box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); }
 
 /*QUERIES*/
 /*405 para baixo aumenta o espaçamento*/
@@ -406,11 +414,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
   }
 }
 
-@media screen and (max-width: 424px) {
-  .trabalho{ height: auto; }
 
-
-}
 
 /*768 para cima esconder menu1*/
 @media screen and (min-width: 992px) {
