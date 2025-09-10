@@ -254,9 +254,13 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
 .trabalhos{justify-content: center;}
 .trabalho .trabalhos{width: 100%; display: flex; flex-wrap: wrap;}
 .trabalho .trabalhos .unid-trabalho{
-  width: 310px;
+  /* width: 310px;
   margin-right: 10px;
   margin-left: 10px;
+  margin-top: 40px; */
+
+  margin: 40px 10px 0 10px;
+
   padding-top: 30px;
   border-radius: 20px;}
 .trabalhos .foto-trabalho{
