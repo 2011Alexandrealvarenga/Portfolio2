@@ -155,6 +155,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
 /* tecnologias */
 .tools{
   padding: 50px 0;
+  background: #f2f2f2;
 }
 .tools .content-item {
     display: flex;
@@ -167,9 +168,9 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
   transition: 0.5s ease-in-out;
 }
 .tools .content-item .item-line:hover{
-
   transform:translateY(-5px);
 }
+
 .tools .content-item .item-line .item {
   /* border: 1px solid red; */
   text-align: center;
