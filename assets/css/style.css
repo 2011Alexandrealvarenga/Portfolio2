@@ -255,15 +255,15 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
 .trabalho .trabalhos{width: 100%; display: flex; flex-wrap: wrap;}
 .trabalho .trabalhos .unid-trabalho{
   margin: 40px 10px 0 10px;
-  padding-top: 30px;
+  /* padding-top: 30px; */
   border-radius: 20px;}
 .trabalhos .foto-trabalho{
   width: 300px;
   background: #fff;
   height: 200px;
   max-height: 200px;
-  margin-right: 5px;
-  margin-left: 5px;
+  /* margin-right: 5px;
+  margin-left: 5px; */
   border-radius: 20px;}
 .trabalhos .foto-trabalho .img-trabalho{
   object-fit: cover;
@@ -273,10 +273,11 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
 .trabalhos .desc-trabalho{
   width: 300px;
   background: #fff;
-  margin: 0 5px; 
+  /* margin: 0 5px;  */
   padding: 10px;
   height: auto;
-  border-radius: 20px;
+  border-radius: 0 0 20px 20px;
+  border-top: 5px solid red;
 }
 .trabalhos .desc-trabalho h4{font-weight: bold;color:#000;}
 .trabalhos .desc-trabalho p{ margin: 0;font-weight: bold;color:red;}
