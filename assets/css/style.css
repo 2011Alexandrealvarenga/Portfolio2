@@ -147,11 +147,6 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
     flex-direction: column;
     /* border: 1px solid red; */
 }
-
-
-
-
-
 /* tecnologias */
 .tools{
   padding: 50px 0;
@@ -195,13 +190,9 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
 .tools .content-item .item-line hr.line{
   margin: 0;
   border: 2px solid red;
+  width: 97%;
 }
 /* fim - tecnologias */
-
-
-
-
-
 
 /*ESCOLARIDADE FORMACAO*/
 .formacao {height: auto;
@@ -411,6 +402,9 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
   }
   .tools .content-item .item-line .item .title{
     font-size: 12px;
+  }
+  .tools .content-item .line {
+    width: 95%;
   }
 }
 
