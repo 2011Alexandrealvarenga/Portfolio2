@@ -124,6 +124,10 @@ h1 {
 .objetivo-profissional2 .content-desc{
   text-align: left;
 }
+.objetivo-profissional2 .content-desc ul li{
+  font-size: 18px;
+}
+.objetivo-profissional2 .content-desc .highlight{font-weight: bold;}
 
 i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 10px;}
 
