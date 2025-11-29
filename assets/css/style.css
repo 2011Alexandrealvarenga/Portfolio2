@@ -105,9 +105,7 @@ h1 {
 }
 /*objetivo profissional*/
 .obj-profissional {height: auto;
-  /* background: linear-gradient(510deg, #fff, #f3dbbc, #e9ecef, #dee2e6); */
-  /* background-size: 400% 400%; */
-  /* animation: BackgroundGradient 10s ease infinite;  */
+
   padding: 40px 0;}
 .obj-profissional p{text-align: center;
       color: #000;
@@ -123,7 +121,9 @@ h1 {
     padding: 16px;
     text-align: center;
     border-radius: 5px;}
-
+.objetivo-profissional2 .content-desc{
+  text-align: left;
+}
 
 i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 10px;}
 
