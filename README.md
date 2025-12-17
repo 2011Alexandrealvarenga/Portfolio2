@@ -15,3 +15,11 @@ https://2011alexandrealvarenga.github.io/Portfolio2/assets/img/speedteste.PNG
 
 # Audio
 https://voca.ro/1exCRGDlUDAU
+
+##
+# Alexandre
+# tempo
+# graduação
+# o que sei fazer
+# experiencia com desempenho
+# experiencia com forms
