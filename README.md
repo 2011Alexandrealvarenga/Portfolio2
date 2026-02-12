@@ -19,6 +19,9 @@ https://voca.ro/1exCRGDlUDAU
 30 segundos
 https://voca.ro/19III9Rhx0Z9
 
+# computer details
+http://2011alexandrealvarenga.github.io/Portfolio2/assets/img/computer%20details.png
+
 ##
 # Alexandre
 # tempo
