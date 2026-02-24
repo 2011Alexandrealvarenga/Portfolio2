@@ -6,11 +6,15 @@ https://2011alexandrealvarenga.github.io/Portfolio2/
 https://portfolio-pi-lime-qfbzm1mbqm.vercel.app/
 
 # url video
-<!-- https://www.loom.com/share/7e792c2f6d8c487f840db5cd40f64a13 -->
+https://www.loom.com/share/7e792c2f6d8c487f840db5cd40f64a13
+
+# video 2 min
+https://www.loom.com/share/96d9684ac25a44b6b7be7443c725ccaa
 
 # Repository
 https://github.com/2011Alexandrealvarenga/Portfolio2.git
 
+# Speed test
 https://2011alexandrealvarenga.github.io/Portfolio2/assets/img/speedteste.PNG
 
 # Audio
