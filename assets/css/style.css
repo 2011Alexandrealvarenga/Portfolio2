@@ -527,7 +527,11 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
 
 
 
-
+.english-level{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .obj-profissional {
   position: relative;
