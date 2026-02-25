@@ -521,6 +521,16 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
   .formacao{
     padding: 40px 0;
   }
+  .objetivo-profissional2{
+    width: 100%;
+  }
+  .obj-profissional .objetivo-profissional2 .content-contact {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .content-box{
+    width: 100%;
+  }
 
 }
 
