@@ -104,29 +104,23 @@ h1 {
   font-size: 24px;
 }
 /*objetivo profissional*/
-
-
 .obj-profissional {height: auto;}
-
-
-.img-photo{
+#personal .img-photo{
   width: 200px;
   height: 200px;
   object-fit: cover;
   border-radius: 40px 0;
 }
-.profile-desc{
-  /* background: white; */
+#personal .profile-desc{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-content: center;
   text-align: center;
   height: 200px;
-
 }
-.profile-desc .subtitle,
-.profile-desc .subtitle2
+#personal .profile-desc .subtitle,
+#personal .profile-desc .subtitle2
 {
   color: white;
     text-shadow: 
@@ -135,34 +129,26 @@ h1 {
     -3px  3px 0 black,
      3px  3px 0 black;
 }
-
-.subtitle{margin-bottom: 8px;}
-
-
+#personal .subtitle{margin-bottom: 8px;}
 @media screen and (max-width: 768px) {
-
-  .profile-img-content {
+  #personal .profile-img-content {
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
     margin-bottom: 16px;
   }
-  .profile-desc{
+  #personal .profile-desc{
     height: inherit;
   }
-  .profile-desc .subtitle{
+  #personal .profile-desc .subtitle{
+    font-size: 18px;
+    margin: 0;
+  }
+  #personal .profile-desc .subtitle2{
     font-size: 24px;
-  }
-  .profile-desc .subtitle2{
-    font-size: 24pxpx;
-  }
-    
+  }    
 }
-
-
-
-
 .obj-profissional p{text-align: center;
       color: #000;
       margin: 0;}
@@ -174,9 +160,11 @@ h1 {
 .obj-profissional .desc h6{width: 320px;}
 .objetivo-profissional2 {width: 600px;
     background: var(--cinza-claro);
-    padding: 16px;
+    padding: 40px 20px;
     text-align: center;
+    margin: 80px 0;
     border-radius: 5px;}
+
 .objetivo-profissional2 .content-desc{
   text-align: left;
 }
