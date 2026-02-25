@@ -9,12 +9,11 @@ body, html {
   margin: 0;
   padding: 0; }
 
-
     .line{width: 100px; border: 3px solid red;margin: 0 auto;}
 
 h1,h2,h3,h4,h5,h6{font-family: 'Play', sans-serif; margin: 0;}
-p,a,li{font-family: 'Rajdhani', sans-serif;}
-p, span{font-size: 18px;}
+p, a, li{font-family: 'Rajdhani', sans-serif;}
+p, span, a{font-size: 20px;}
 h2, h5 {text-align: center;}
 h2 {  font-size: 32px; }
 .fixed {position: fixed !important;
@@ -169,7 +168,7 @@ h1 {
   text-align: left;
 }
 .objetivo-profissional2 .content-desc ul li{
-  font-size: 18px;
+  font-size: 20px;
 }
 .objetivo-profissional2 .content-desc .highlight{font-weight: bold;}
 
@@ -270,11 +269,12 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
 .card-body ul li p {padding: 0; margin-bottom: 0; }
 .back-content {color: #2c3e50;text-align: center; width: 100%; }
 /*EXPERIENCIA PROFISSIONAL*/
-.experiencia {padding: 50px 0; background: #fff; }
+.experiencia {padding: 80px 0; background: #fff; }
+
 .content-box {width: 600px; height: auto; }
 .content-box ul {
     background: var(--cinza-claro);
-    padding: 10px 15px;
+    padding: 40px 20px;
     border-radius: 5px;
     list-style-type: none; }
     .content-box ul li .title {
@@ -462,7 +462,7 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
 @media screen and (min-width: 992px) {
   .navbar-brand { display: none; } 
 }
-@media screen (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .navbar-collapse ul li{ padding: 20px 0!important;  }
   
 }
@@ -515,3 +515,11 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
       height: 20px;
       margin: 4px;
     }
+
+@media (max-width: 425px) {
+  .experiencia,
+  .formacao{
+    padding: 40px 0;
+  }
+
+}
