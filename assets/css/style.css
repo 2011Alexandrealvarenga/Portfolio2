@@ -515,6 +515,16 @@ i.fa-github,i.fa.fa-linkedin,i.fa.fa-file {font-size: 40px;color: #000;padding: 
       height: 20px;
       margin: 4px;
     }
+.texto {
+  opacity: 0;
+  transform: translateX(-150px);
+  transition: all 0.7s ease-out;
+}
+
+.texto.ativo {
+  opacity: 1;
+  transform: translateX(0);
+}
 
 @media (max-width: 425px) {
   .experiencia,
