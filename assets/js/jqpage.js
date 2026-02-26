@@ -1,9 +1,1 @@
-var height = $('#header').height();
-$(window).scroll (function(){
-
-	if($(this).scrollTop()>height){
-		$('.navbar').addClass('fixed');
-	}else{
-		$('.navbar').removeClass('fixed');
-	}
-});
+var height=$("#header").height();$(window).scroll(function(){$(this).scrollTop()>height?$(".navbar").addClass("fixed"):$(".navbar").removeClass("fixed")});

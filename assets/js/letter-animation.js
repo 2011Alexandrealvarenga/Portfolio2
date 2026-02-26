@@ -1,17 +1,1 @@
-const elementos = document.querySelectorAll('.animar');
-
-const observer = new IntersectionObserver((entradas) => {
-  entradas.forEach((entrada) => {
-    if (entrada.isIntersecting) {
-      entrada.target.classList.add('ativo');
-    } else {
-      entrada.target.classList.remove('ativo'); // remove ao sair
-    }
-  });
-}, {
-  threshold: 0.3
-});
-
-elementos.forEach((elemento) => {
-  observer.observe(elemento);
-});
+const elementos=document.querySelectorAll(".animar"),observer=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting?e.target.classList.add("ativo"):e.target.classList.remove("ativo")})},{threshold:.3});elementos.forEach(e=>{observer.observe(e)});
